@@ -2,11 +2,12 @@ public class Maximum_subArray {
 
 
     public static void main(String[] args) {
-    int[] arr={1,2,-2,4,-5,3,4,-2,3};
+    int[] arr={1,2,-2,3,-5,3,4,-2,3};
     int ans=sum(arr);
         System.out.println(ans);
     }
     // kadane's algorithm
+    //to find sum of maximum subArray
    static int sum(int[]arr){
         int sum=0;
         int max=arr[0];
