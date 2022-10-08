@@ -10,10 +10,12 @@ public class ReverseArray {
         int start=0;
         int end=arr.length-1;
 
-        for (int i = 0; i < arr.length; i++) {
+        while(start<=end) {
             int temp=arr[start];
             arr[start]=arr[end];
             arr[end]=temp;
+            start++;
+            end--;
 
         }
 
